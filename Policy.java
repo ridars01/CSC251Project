@@ -44,7 +44,7 @@ public class Policy {
    
    }
 
-   public void setProviderNamer(String provName){
+   public void setProviderName(String provName){
       providerName = provName;
    
    }
@@ -87,7 +87,7 @@ public class Policy {
       return policyNumber;
    }
 
-   public String getProviderNamer(){
+   public String getProviderName(){
    
       return providerName;
    }
