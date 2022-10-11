@@ -71,15 +71,15 @@ public class Project2_Rida_Fatimah
             System.out.println("Policyholder's Weight: " + policy.get(i).getWeight() + " pounds");
             System.out.printf("Policyholder's BMI: %.2f\n", policy.get(i).getBMI());
             System.out.printf("Policy Price: $%.2f\n", policy.get(i).getPrice());
-         /*
+         
             policiesWithSmoker+= policy.get(i).getSmokingStatus();
             policiesWithNonSmoker+=policy.get(i).getSmokingStatus();
-         */
+         
          }
-      /*
+      
          System.out.println("The number of policies with a smoker is: "+policiesWithSmoker);
          System.out.println("The number of policies with a non-smoker is: "+policiesWithNonSmoker);
-      */
+      
       }//Close try block
       
       
